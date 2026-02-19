@@ -1,2 +1,60 @@
-# sub.sh
-Otomatik Subfinder aracı; hedef domain üzerinde subdomain keşfi yapmayı kolaylaştıran bash tabanlı bir otomasyon scriptidir.  Tek domain, domain listesi, sessiz mod ve recursive tarama seçenekleri sunar. Ayrıca subfinder çıktısını httpx ile birleştirerek aktif subdomain kontrolü yapabilir.  Recon sürecini hızlandırmak için hazırlanmıştır
+🚀 Otomatik Subfinder
+
+Bash tabanlı, interaktif bir subdomain keşif otomasyon aracıdır.
+subfinder ve isteğe bağlı olarak httpx kullanarak hedef domain üzerinde hızlı ve pratik recon işlemi yapmanızı sağlar.
+
+📌 Özellikler
+
+🔎 Tek domain subdomain tarama
+
+🔕 Sessiz mod (-silent)
+
+📂 Domain listesi ile toplu tarama
+
+🔁 Recursive subdomain tarama
+
+🌐 Subfinder + httpx entegrasyonu (aktif subdomain kontrolü)
+
+🧭 Menü tabanlı kullanım (kolay seçim)
+
+🛠 Gereksinimler
+
+Sistemde aşağıdaki araçların kurulu olması gerekir:
+
+subfinder
+
+httpx (5. seçenek için gerekli)
+
+Kurulum (örnek):
+
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+
+📂 Kullanım
+
+Script’e çalıştırma izni verin:
+
+chmod +x sub.sh
+
+
+Aracı başlatın:
+
+./sub.sh
+
+
+Menü üzerinden istediğiniz işlemi seçin.
+
+📁 Çıktı
+
+Çıktılar otomatik olarak hedef.txt dosyasına kaydedilir.
+
+seçenek kullanıldığında önce subs.txt oluşturulur, ardından aktif domainler filtrelenir.
+
+🎯 Amaç
+
+Recon sürecini hızlandırmak, manuel komut yazma ihtiyacını azaltmak ve subdomain keşfini daha pratik hale getirmek.
+
+⚠️ Uyarı
+
+Bu araç yalnızca yetkili ve yasal testler için kullanılmalıdır.
+Tüm sorumluluk kullanıcıya aittir.
