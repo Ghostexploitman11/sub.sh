@@ -58,3 +58,5 @@ Recon sürecini hızlandırmak, manuel komut yazma ihtiyacını azaltmak ve subd
 
 Bu araç yalnızca yetkili ve yasal testler için kullanılmalıdır.
 Tüm sorumluluk kullanıcıya aittir.
+<img width="661" height="486" alt="resim" src="https://github.com/user-attachments/assets/35da61d1-5ad4-4aca-be93-a1c303337b9a" />
+
